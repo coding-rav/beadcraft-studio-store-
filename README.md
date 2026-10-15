@@ -1,8 +1,8 @@
-## Beadcraft Studio — Vercel + Supabase + Razorpay store\n
+# Beadcraft Studio — Vercel + Supabase + Razorpay store
 
 **Small Beads. Big Vibes.** React 18 + TypeScript + Vite 5 + Tailwind 3 + React Router 6 on Vercel; Supabase for Postgres, Auth, Storage and Edge Functions; Razorpay for payments.
 
-> ### What has and has not been verified (read first)
+ ### What has and has not been verified (read first)
 > This version was prepared in an environment with **no network, no Docker, no Postgres, no Supabase or Razorpay account**, and I could **not open your GitHub repository** (it returned 404, so it is private).
 >
 > | Check | Status |
