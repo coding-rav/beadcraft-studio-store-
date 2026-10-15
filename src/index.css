@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+body { @apply bg-[#FFFAF6] font-sans text-[#2A1A1D] antialiased; }
+h1, h2, h3 { @apply font-serif; }
+:focus-visible { outline: 3px solid #c0566a; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
